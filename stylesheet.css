@@ -95,12 +95,17 @@ input, select {
     vertical-align:middle;
 }
 
-/*★★★ここまで*/
+/*ここまで***********************************/
 .wrapper{
-  max-width: 1000px;
+  font-family:arial;
+}
+
+a{
+  text-decoration:none;
 }
 
 header{
+  color:black;
   font-family:arial black;
   border:6px solid maroon;
   border-color:#000000;
@@ -117,15 +122,27 @@ header{
 
 .header-list{
   text-align:center;
-  margin:10px;
+  margin:10px 5px;
 }
+
 .header-list ul li{
   display:inline;
   margin:10px;
 }
 
+.header-list ul li a{
+  color:black;
+}
+
 span{
   color:#b00000;
+}
+.header-list ul li a:hover{
+  background-color:black;
+  color:white;
+}
+.header-list ul li a:hover span{
+  color:red;
 }
 
 .main{
@@ -136,11 +153,13 @@ span{
 .main h1{
   font-size:30px;
   margin:10px;
+  color:black;
   /* background-color:blue; */
 }
 
 p{
-  margin:10px;
+  padding:10px;
+  line-height: 25px;
   /* background-color:red; */
 }
 
@@ -149,5 +168,22 @@ ul{
 }
 
 footer{
-  background:plum;
+  color:white;
+  background:black;
+}
+
+footer ul{
+  padding:12px 40px;
+}
+
+footer ul li{
+  margin:5px;
+}
+
+footer ul li a{
+  color:white;
+}
+
+footer ul li a:hover{
+  color:red;
 }
